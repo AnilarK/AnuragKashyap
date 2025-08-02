@@ -28,7 +28,7 @@ const HeroSection = () => {
               </div>
               
               <h1 className="text-4xl lg:text-6xl font-playfair font-bold text-foreground leading-tight">
-                Dr. Anurag Kumar 
+                Dr. Anurag 
                 <span className="text-primary block">Kashyap</span>
               </h1>
               
@@ -97,7 +97,7 @@ const HeroSection = () => {
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-[var(--shadow-strong)]">
                 <img 
                   src={doctorProfile} 
-                  alt="Dr. Anurag Kumar Kashyap" 
+                  alt="Dr. Anurag Kashyap" 
                   className="w-80 h-96 object-cover"
                 />
               </div>

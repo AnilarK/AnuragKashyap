@@ -38,12 +38,14 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <button 
-              onClick={() => scrollToSection('#home')}
-              className="text-xl font-playfair font-bold text-primary hover:text-primary-glow transition-colors"
+            <a 
+              href="https://www.linkedin.com/in/anurag-kashyap-89171013b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl font-playfair font-bold text-primary hover:text-primary-glow transition-colors cursor-pointer"
             >
               Dr. Anurag Kashyap
-            </button>
+            </a>
           </div>
 
           {/* Desktop Navigation */}

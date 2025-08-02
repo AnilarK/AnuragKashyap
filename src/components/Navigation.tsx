@@ -19,7 +19,7 @@ const Navigation = () => {
     { href: '#specializations', label: 'Specializations' },
     { href: '#experience', label: 'Experience' },
     { href: '#testimonials', label: 'Testimonials' },
-    { href: '#contact', label: 'Contact' },
+    { href: '#appointment', label: 'Contact' },
   ];
 
   const scrollToSection = (href: string) => {

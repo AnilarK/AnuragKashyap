@@ -28,7 +28,7 @@ const AboutSection = () => {
       <div className="container-custom">
         <div className="text-center mb-16 fade-in-up">
           <h2 className="text-3xl lg:text-4xl font-playfair font-bold text-foreground mb-4">
-            About Dr. Anurag Kumar Kashyap
+            About Dr. Anurag Kashyap
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             A passionate ophthalmologist dedicated to advancing eye care through 
@@ -44,7 +44,7 @@ const AboutSection = () => {
                 Professional Journey
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Dr. Anurag Kumar Kashyap is a distinguished Consultant Ophthalmic Surgeon 
+                Dr. Anurag Kashyap is a distinguished Consultant Ophthalmic Surgeon 
                 with a remarkable academic and professional background. Having earned his 
                 MS in Ophthalmology with a Gold Medal from the prestigious RIO BHU, he has 
                 consistently demonstrated excellence in both clinical practice and surgical expertise.

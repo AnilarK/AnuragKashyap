@@ -39,7 +39,7 @@ const Footer = () => {
             <div className="lg:col-span-1 space-y-6">
               <div>
                 <h3 className="text-2xl font-playfair font-bold mb-3">
-                  Dr. Anurag Kumar Kashyap
+                  Dr. Anurag Kashyap
                 </h3>
                 <p className="text-primary-foreground/80 leading-relaxed">
                   Dedicated to providing exceptional eye care with cutting-edge technology 
@@ -166,7 +166,7 @@ const Footer = () => {
             {/* Copyright */}
             <div className="text-center md:text-left">
               <p className="text-primary-foreground/80 text-sm">
-                © {currentYear} Dr. Anurag Kumar Kashyap. All rights reserved.
+                © {currentYear} Dr. Anurag Kashyap. All rights reserved.
               </p>
             </div>
 

@@ -49,7 +49,7 @@ const AppointmentSection = () => {
             Book Your Appointment
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Schedule a consultation with Dr. Anurag Kumar Kashyap for 
+            Schedule a consultation with Dr. Anurag Kashyap for 
             comprehensive eye care and personalized treatment plans.
           </p>
         </div>

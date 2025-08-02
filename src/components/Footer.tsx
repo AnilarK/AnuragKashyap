@@ -139,7 +139,15 @@ const Footer = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-white text-primary px-6 py-3 rounded-lg font-medium hover:bg-primary-glow hover:text-white transition-all duration-300 flex items-center space-x-2">
+              <button 
+                onClick={() => {
+                  const element = document.querySelector('#appointment');
+                  if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="bg-white text-primary px-6 py-3 rounded-lg font-medium hover:bg-primary-glow hover:text-white transition-all duration-300 flex items-center space-x-2"
+              >
                 <Calendar size={20} />
                 <span>Book Appointment</span>
               </button>

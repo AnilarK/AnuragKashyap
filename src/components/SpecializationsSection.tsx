@@ -101,7 +101,15 @@ const SpecializationsSection = () => {
               Schedule a consultation to discuss your vision needs and explore 
               the best treatment options available.
             </p>
-            <button className="btn-primary">
+            <button 
+              onClick={() => {
+                const element = document.querySelector('#appointment');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+              className="btn-primary"
+            >
               Schedule Consultation
             </button>
           </div>

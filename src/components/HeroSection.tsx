@@ -45,7 +45,15 @@ const HeroSection = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="btn-primary flex items-center justify-center space-x-2">
+              <button 
+                onClick={() => {
+                  const element = document.querySelector('#appointment');
+                  if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="btn-primary flex items-center justify-center space-x-2"
+              >
                 <Calendar size={20} />
                 <span>Book Consultation</span>
               </button>

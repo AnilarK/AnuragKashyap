@@ -90,15 +90,16 @@ const HeroSection = () => {
           <div className="fade-in flex justify-center lg:justify-end">
             <div className="relative">
               {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-full"></div>
-              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-accent/10 rounded-full"></div>
+              <div className="absolute -top-4 -right-4 w-20 h-20 sm:w-24 sm:h-24 bg-primary/10 rounded-full"></div>
+              <div className="absolute -bottom-4 -left-4 w-24 h-24 sm:w-32 sm:h-32 bg-accent/10 rounded-full"></div>
               
               {/* Main image */}
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-[var(--shadow-strong)]">
                 <img 
                   src={doctorProfile} 
                   alt="Dr. Anurag Kashyap" 
-                  className="w-80 h-96 object-cover"
+                  className="w-72 h-80 sm:w-80 sm:h-96 object-cover object-center"
+                  loading="eager"
                 />
               </div>
             </div>

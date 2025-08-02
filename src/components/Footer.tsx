@@ -203,7 +203,15 @@ const Footer = () => {
             <p className="text-primary-foreground/60 text-sm flex items-center justify-center space-x-2">
               <span>Made with</span>
               <Heart className="text-red-400" size={16} fill="currentColor" />
-              <span>for better vision and healthier lives</span>
+              <span>by</span>
+              <a 
+                href="https://www.linkedin.com/in/abhay-singh-b825a1221/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-glow hover:text-white transition-colors font-medium"
+              >
+                Abhay
+              </a>
             </p>
           </div>
         </div>
